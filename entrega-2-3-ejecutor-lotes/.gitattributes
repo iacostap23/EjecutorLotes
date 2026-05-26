@@ -1,0 +1,16 @@
+﻿# Normalizar archivos de texto
+* text=auto
+
+# Codigo Go y archivos del modulo
+*.go text eol=lf
+*.mod text eol=lf
+*.sum text eol=lf
+
+# Documentacion
+*.md text eol=lf
+
+# Scripts Linux
+*.sh text eol=lf
+
+# Scripts Windows
+*.ps1 text eol=crlf

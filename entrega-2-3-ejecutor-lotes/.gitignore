@@ -1,0 +1,48 @@
+# ==============================
+# Ejecutables y binarios generados
+# ==============================
+
+*.exe
+*.out
+*.test
+
+/bin/
+
+/programas/procesar
+/programas/dormir
+/programas/*.exe
+/programas/dormir.go
+
+# ==============================
+# Almacenamiento generado por el sistema
+# ==============================
+
+/aralmac/
+
+# ==============================
+# Logs y reportes de pruebas
+# ==============================
+
+/logs/
+*.log
+*.tmp
+
+# ==============================
+# Archivos temporales creados por scripts
+# ==============================
+
+/entrada.txt
+/pruebas/dormir/
+
+# ==============================
+# Configuración de editor
+# ==============================
+
+.vscode/
+
+# ==============================
+# Sistema operativo
+# ==============================
+
+.DS_Store
+Thumbs.db
